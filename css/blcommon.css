@@ -1,0 +1,20 @@
+.clearfix:after{
+	display: block;
+	visibility: hidden;
+	height:0px;
+	content:"";
+	clear:both;
+}
+.clearfix{
+	*zoom: 1;
+}
+.content{
+	width: 1221px;
+	margin:0 auto;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}

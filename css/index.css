@@ -95,9 +95,6 @@ margin-right: 32px;
 .header .header-nav .header-list li:first-child a{
 	font-weight: bolder;
 }
-.order {
-
-}
 .order li{
 	text-align: center;
 	display: none;

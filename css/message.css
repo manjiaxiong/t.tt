@@ -1,0 +1,134 @@
+/*/*顶部上部开始 */
+.top-top{
+	height: 20px;
+	background-color: #53617b;
+}
+/*顶部上部结束 */
+
+/*顶部中部开始 */
+.top-middle{
+	/*height: 60px;*/
+	line-height: 60px;
+	box-sizing: border-box;
+}
+.top-middle img{
+		float: left;
+		margin-left: 226px;
+		margin-top: 5px;
+}
+.top-middle .top-middle-list{
+	margin-right: 80px;
+	float: right;
+}
+.top-middle .top-middle-list li{
+	/*height: 50px;*/
+	/*width: 57px;*/
+	float: left;
+	min-width: 58px;
+	font-size: 12px;
+	text-align: center;
+	/*background-color: red;*/
+	margin-right: 30px;
+	color: #337ab7;
+	transition: all 700ms;
+}
+.top-middle .top-middle-list li:hover{
+	background-color: #eee;
+}
+.top-middle .top-middle-list li a{
+	color: #337ab7;
+}
+/*顶部中部结束 */
+/*顶部下部开始 */
+.top-bottom{
+	height: 40px;
+	background-color: #53617b;
+}
+/*顶部下部结束 */
+/*中间内容开始 */
+.middle{
+	/*text-align: center;*/
+	margin-bottom: 34px;
+}
+.middle .container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 14px;
+	width: 1500px;
+	height: 490px;
+	/*background-color: red;*/
+	border: 1px solid #d1d1d1;
+	border-radius: 10px;
+}
+.middle .container .information li{
+	height: 40px;
+	border-bottom:  1px solid #d1d1d1;
+	line-height: 40px;
+}
+.middle .container .information li:last-child{
+	border-bottom:none;
+}
+.middle .container .information-bottom span{
+	width: 74px;
+	height: 18px;
+	background-color: #777;
+	color: white;
+	text-align: center;
+	line-height: 18px;
+	float: right;
+	font-size: 10px;
+	border-radius: 9px;
+	margin-right: 14px;
+	margin-top: 12px;
+	cursor: default;
+}
+.middle .container .information-top{
+	background-color: #ececec;
+	font-size: 14px;
+}
+.middle .container .information-top span{
+	margin-left: 16px;
+}
+.middle .container .information-top a{
+	font-size: 14px;
+	float: right;
+	color: #337ab7;
+	margin-right: 14px;
+}
+.middle .container .information-top a:hover{
+	text-decoration: underline;
+}
+.middle .container .information-bottom a{
+	font-size: 14px;
+	color: #555;
+	margin-left: 16px;
+}
+.middle .container .information-bottom:hover{
+	background-color: #f5f5f5;
+}
+/*中间内容结束 */
+/*底部总结开始 */
+.bottom{
+	height: 282px;
+	background-color: #53617b;
+	text-align: center;
+	overflow: hidden;
+}
+.bottom p{
+	font-size: 14px;
+	color: #fffff6;
+}
+.bottom p a{
+	font-size: 14px;
+	color: #8bc8d3;
+}
+.bottom p:first-child{
+	margin-top: 46px;
+}
+.bottom p:last-child{
+	margin-top: 28px;
+}
+.bottom p a:hover{
+	text-decoration: underline;
+}
+/*底部总结结束*/

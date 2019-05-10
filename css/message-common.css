@@ -1,0 +1,16 @@
+.clearfix:after{
+	height: 0;
+	content: "";
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+.clearfix{
+	*zoom: 1;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}

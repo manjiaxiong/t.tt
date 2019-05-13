@@ -110,3 +110,116 @@ body{
 	width: 1920px;
 	height: 614px;
 }
+/* .logo结束 */
+.top .content{
+	width: 1260px;
+	background: #fff;
+	height: 530px;
+	border-radius:8px;
+}
+.zizhu{
+	margin-top:30px;
+	margin-left:30px;
+	height: 60px;
+	line-height:60px;
+	color: #9f9f9f;
+	font-size: 18px;
+	border-bottom:1px solid #ebebeb;
+}
+.top .fw{
+	float:left;
+	height: 235px;
+	margin-left:3px;
+}
+.top .fw li{
+	margin-top:70px;
+	width: 209px;
+	height: 100%;
+	float:left;
+	text-align:center;
+}
+.top .fw li img{
+	width: 60px;
+	height: 60px;
+}
+.top .fw li p{
+	margin-top:30px;
+	color: #333333;
+}
+.top .fw li span{
+	color: #999;
+	font-size: 12px;
+}
+.top .fuwu{
+	float:left;
+	width: 100%;
+	height: 235px;
+}
+.top .fuwu li{
+	float: left;
+	text-align:center;
+}
+.top .fuwu img{
+	width: 136px;
+	height: 136px;
+	margin-left:70px;
+	margin-top:70px;
+}
+.top .fuwu li div{
+	width: 380px;
+	float: right;
+	margin-top:85px;
+	margin-left:15px;
+}
+.top .fuwu li div strong{
+	color:#d74d44;
+	font-size: 20px;
+	font-weight:500;
+}
+.top .fuwu li div p{
+	font-size:14px;
+	color: #bbbbbb;
+	margin-top:12px;
+}
+.top .fuwu li div a{
+	font-size: 14px;
+	line-height:72px;
+}
+.top .fuwu li:last-child{
+	float: right;
+	margin-right:40px;
+}
+/* .top结束 */
+.matter .content{
+	margin-top:30px;
+	width: 1260px;
+	background: #fff;
+	height: 330px;
+	border-radius:8px;
+}
+.matter .wenti{
+	float: left;
+	width: 100%;
+}
+.matter .wenti li{
+	float: left;
+	width: 50%;
+	height: 127px;
+}
+.matter .wenti li img{
+	float: left;
+	margin-top: 35px;
+	margin-left:35px;
+}
+.matter .wenti li h3{
+	margin-top: 32px;
+	margin-left:125px;
+	font-size: 20px;
+	font-weight:600;
+}
+.matter .wenti li p{
+	margin-top: 18px;
+	margin-left:125px;
+	font-size: 12px;
+	color: #bbbbbb;
+}

@@ -223,3 +223,145 @@ body{
 	font-size: 12px;
 	color: #bbbbbb;
 }
+.matter .kefu{
+	float: left;
+	width: 100%;
+}
+.matter .kefu li{
+	float: left;
+	width: 25%;
+	text-align:center;
+	margin-top:70px;
+}
+.matter .kefu li h3{
+	margin-top:30px;
+	font-size: 17px;
+	font-weight:500;
+}
+.matter .kefu li p{
+	margin-top:10px;
+	font-size:12px;
+	color: #bbbbbb;
+}
+/* .matter结束 */
+.foot{
+	margin-top:30px;
+	height: 330px;
+	background:#fff;
+}
+.foot .content{
+	padding-top:60px;
+}
+.foot .lb{
+	font-size:13px;
+}
+.foot .lb dl{
+	float: left;
+	margin-right:90px;
+	line-height:30px;
+}
+.foot .lb dt{
+	margin-bottom:18px;
+	color:#646464;
+	font-weight:bold;
+}
+.foot .lb dd a{
+	color:#969696;
+}
+.foot .lb dd a:hover{
+	color: #5089e1;
+}
+.foot .lb .zx{
+	width: 160px;
+	height: 160px;
+	float: right;
+}
+.foot .lb .zx h2{
+	font-size: 18px;
+	color: #5089e1;
+	float: right;
+	margin-bottom:20px;
+}
+.foot .lb .zx span{
+	float: right;
+	font-size:13px;
+	color:#969696;
+}
+.foot .lb .zx a{
+	display:inline-block;
+	width: 120px;
+	height: 30px;
+	line-height:30px;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	float: right;
+	text-align:center;
+	margin-top:15px;
+	color:#5089e1;
+	font-weight:bold;
+	position:relative;
+}
+.foot .lb .zx a:after{
+	content: '';
+	display:block;
+	width: 14px;
+	height: 14px;
+	background:#5089e1;
+	border-radius:50%;
+	position:absolute;
+	top:50%;
+	margin-top:-7px;
+	left: 25px;
+}
+.foot .lb .zx a span{
+	position:absolute;
+	right:85px;
+	color:#fff;
+	z-index:9;
+}
+.foot .db{
+	float:left;
+	width: 100%;
+	margin-top:25px;
+	border-top:1px solid #ccc;
+}
+.foot .db ul{
+	float:left;
+	width: 480px;
+	margin-top:25px;
+}
+.foot .db ul li a{
+	float:left;
+	font-size: 12px;
+	color:#969696;
+}
+.foot .db ul li a:hover{
+	color:#dedede;
+}
+.foot .db ul li span{
+	color: #dedede;
+}
+.foot .db .yxj{
+	margin-top:25px;
+	float: right;
+	height: 20px;
+	line-height:20px;
+	position:relative;
+}
+.foot .db .yxj img{
+	position:absolute;
+	top: 5px;
+	left: -18px;
+}
+.foot .db .yxj span{
+	font-size: 12px;
+	margin-left: 5px;
+}
+.foot .db .yxj i{
+	color:#ccc;
+	border:none;
+	margin-left: 15px;
+	display:inline-block;
+	transform:rotate(180deg);
+	cursor:pointer;
+}

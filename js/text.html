@@ -4,67 +4,22 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-		li{
-			list-style: none;
+		div{
+			width: 309px;
+			height: 205px;
+			margin:200px auto;
 		}
-		#sec{
-			overflow: hidden;
-		}
-		#sec li{
-			width: 30px;
-			height: 30px;
-			text-align: center;
-			float: left;
-			cursor: pointer;
-			/*overflow: hidden;*/
-		}
-		#live li{
-			width: 300px;
-			height: 300px;
-			border: 1px solid #000;
-			margin-top: -17px;
-			text-align: center;
-			display: none;
-		}
-		.active{
-			color: #ff6700;
-			border-bottom: 2px solid #ff6700;
+		img{
+			box-shadow: inset 10px 10px 10px red;
 		}
 	</style>
 </head>
 <body>
-	<ul id="sec">
-		<li class="active">1</li>
-		<li>2</li>
-		<li>3</li>
-		<li>4</li>
-		<li>5</li>
-	</ul>
-	<ul id="live">
-		<li>001</li>
-		<li>002</li>
-		<li>003</li>
-		<li>004</li>
-		<li>005</li>
-	</ul>
+	<div>
+		<img src="../images/总结3.png" alt="">
+	</div>
 </body>
 <script>
-	var oSec=document.querySelectorAll("#sec li");
-	var oLive=document.querySelectorAll("#live li");
-	// console.log(oSec);
-	for(var i=0;i<oSec.length;i++){
-		oSec[i].index=i;
-		oSec[i].onmouseover=function(){
-			for(var j=0;j<oSec.length;j++){
-				oSec[j].className='';
-				oLive[j].style.display='none';
-			}
-			this.className='active';
-			oLive[this.index].style.display='block';
-		}
-		oLive[i].onmouseout=function(){
-			this.style.display="none";
-		}
-	}
+	
 </script>
 </html>

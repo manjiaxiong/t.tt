@@ -101,7 +101,10 @@ margin-right: 32px;
 	margin-top: 70px;
 	position: absolute;
 	top: 50px;
+	z-index: 1;
+	
 }
+
 .header .header-search{
 	float: right;
 	position: relative;
@@ -212,11 +215,40 @@ margin-right: 32px;
 	margin-bottom: 30px;
 	border: 1px solid #ccc;
 	border-radius: 10px;
+	position: relative;
 	/*overflow: hidden;*/
+}
+.content .big-ad span{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	border-radius: 50%;
+}
+.content .big-ad .skip1{
+	top: 460px;
+	left: 590px;
+	background-color: #fff;
+
+}
+.content .big-ad .skip2{
+	top: 460px;
+	left: 610px;
+	background-color: #ccc;
+
 }
 .content .big-ad img{
 	height: 100%;
+	width: 100%;
 	border-radius: 10px;
+	position: absolute;
+	top: 0px;
+}
+.content .big-ad a:last-of-type img{
+	display: none;
+}
+.content .big-ad a{
+	float: left;
 }
 .content .ad-list li{
 	float: left;
@@ -229,23 +261,83 @@ margin-right: 32px;
 	background-color: #ffffff;
 	border: 1px solid #e1e1e1;
 	box-sizing: border-box;
+	position: relative;
 }
 .content .ad-item li:first-child{
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
+.content .ad-item li:first-child img{
+	margin-left: -46px;
+}
+.content .ad-item li:nth-child(2)  img{
+	margin-left: -92px;
+}
+.content .ad-item li:nth-child(3)  img{
+	margin-left: -92px;
+}
+.content .ad-item li:nth-child(4)  img{
+	margin-left: -65px;
+}
 .content .ad-item li:last-child{
 border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 }
-.content .ad-item li img:first-child{
-	/*margin-top: 30px;*/
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+.content .ad-item img{
+	/*margin-top: 88px;*/
+	margin-top: 6px;
+	position: absolute;
+	bottom: 0px;
+
 }
-.content .ad-item li img:last-child{
-	/*margin-top: -5px;*/
-	border-top-right-radius: 10px;
+.red{
+	color: red;
+}
+.redtab{
+	display: inline-block;
+	width: 56px;
+	height: 17px;
+	border-radius: 5px;
+	background-color: red;
+	font-size: 10px;
+	color: white;
+	font-weight: normal;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+.price1{
+	font-size: 16px;
+	font-weight: bolder;
+}
+.content .ad-item li:nth-child(3) .ad-item-name{
+	font-size: 14px;
+}
+.price2{
+	font-size: 11px;
+	/*font-weight: bold;*/
+	text-decoration: line-through;
+	color: #8d8d8d;
+}
+.greentab{
+	border-radius: 5px;
+	display: inline-block;
+	width: 46px;
+	height: 20px;
+	background-color: #53cf31;
+	color: white;
+	font-size: 12px;
+	line-height: 20px;
+}
+.ad-item-name{
+	margin-top: 32px;
+	font-size: 18px;
+	color: black;
+	font-weight: bolder;
+}
+.ad-item-price{
+	margin-top: 5px;
+	font-size: 12px;
+	color: #b4b4b4;
 }
  .hd{
 	height:60px;

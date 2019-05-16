@@ -12,3 +12,15 @@ var oList=document.querySelectorAll("#list li a");
 			this.style.display="none";
 		}
 	}
+	var img1=document.getElementById('img1');
+	var img2=document.getElementById('img2');
+	var skip1=document.getElementById('skip1');
+	var skip2=document.getElementById('skip2');
+	skip1.onclick=function(){
+		img1.style.display="block";
+		img2.style.display="none";
+	}
+	skip2.onclick=function(){
+		img2.style.display="block";
+		img1.style.display="none";
+	}

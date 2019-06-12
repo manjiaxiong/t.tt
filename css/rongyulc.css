@@ -1,4 +1,4 @@
-顶部导航栏开始*/
+/*顶部导航栏开始*/
 .top{
 	position: relative;
 	width: 100%;
@@ -46,15 +46,44 @@
 	color: #a0a0a1;
 	font-size: 15px;
 }
+.top .shop{
+	position: absolute;
+	top: 45px;
+	right: 20px;
+	width: 370px;
+	height: 0px;
+	border-radius: 10px;
+	background-color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+.top .shop .shop-cart .shop-cart-pic{
+	width: 82px;
+	height: 79px;
+	margin-top: 80px;
+	margin-left: 149px;
+	margin-bottom: 20px;
+}
+.top .shop .shop-cart p{
+	font-size:18px;
+	color: #333; 
+}
+.top .shop .shop-cart span{
+	font-size: 12px;
+    color: #bcbcbc;
+}
 /*顶部导航栏结束*/
 /*顶部图片开始*/
 .picture{
 	margin-bottom: 80px;
+	width: 1920px;
+	overflow: hidden;
 }
 .picture .picture-contents{
 	width: 100%;
 	height: 1995px;
 	background: #131313;
+	overflow: hidden;
 }
 .picture .picture-content{
 	margin: 0 auto;

@@ -1,4 +1,5 @@
 .top{
+	position: relative;
 	/*height: 100px;*/
 	/*background: #cb3c38;*/
 	margin-bottom: 27px;
@@ -61,6 +62,47 @@
 	margin-left: 8px;
 	margin-right: 8px;
 }
+
+
+.top .list-content{
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	height: 0px;
+	background-color: #fff;
+	z-index: 9;
+	overflow: hidden;
+	box-shadow: 2px 2px 10px rgb(0,0,0,0.2);
+}
+.top .list-content .box{
+	width: 1090px;
+	margin: 30px auto;
+	margin-right: 100px;
+	
+}
+.top .list-content .box .links-item{
+	float: left;
+	margin-right: 60px;
+}
+.top .list-content .box .links-item dt{
+	margin-bottom: 20px;
+	color: #000;
+	font-size: 15px;
+}
+.top .list-content .box .links-item{
+	border-right: 1px solid #ccc;
+	padding-right: 50px;
+}
+.top .list-content .box .links-item:nth-child(4){
+	border-right: none;
+
+}
+.top .list-content .box .links-item dd{
+	margin-bottom: 10px;
+	color: #757575;
+	font-size: 13px;
+}
 .top .bottom{
 	width: 100%;
 	height: 50px;
@@ -82,6 +124,9 @@
 .top .bottom-left-area a{
 	color: #757575;
 	font-size: 14px;
+}
+.top .bottom-left-area a:hover{
+	text-decoration: underline;
 }
 .top .bottom-right-area{
 	position: relative;
@@ -131,108 +176,42 @@
 	margin-bottom: 20px;
 }
 .phone .container{
+	position: relative;
 	width: 1265px;
-	height: 576px;
+	height: 567px;
+	overflow: hidden;
 	border: 1px solid #cccccc;
 	border-radius: 10px;
 }
-.phone .container .phone-container-top{
-	position: relative;
+.phone .container .phone-picture{
 	width: 100%;
-	height: 380px;
-	background:#f1f1f1; 
+	height: 100%;	
 }
-.phone .container .phone-container-picture{
+.phone .container .phone-picture img{
 	position: absolute;
-	top: 55px;
-	left: 205px;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
 }
-.phone .container .phone-container-new{
-	float: right;
-	width: 900px;
-	position: relative;
+/*.phone .container .phone-picture img:nth-child(1){
+	z-index:3;
+}*/
+.phone .container .phone-container-bottom{
+	position: absolute;
+	left: 614px;
+	bottom: 39px;
+	z-index: 99;
 }
-.phone .container .phone-container-new .name{
+.phone .container .phone-container-bottom li{
 	float: left;
-	font-size: 65px;
-	height: 65px;
-	line-height: 65px;
-	margin-top: 157px;
-	color: #323232;
-	margin-left: 200px;
-	margin-right: 20px;
-}
-.phone .container .phone-container-new .style{
-	float: left;
-	font-size: 55px;
-	height: 55px;
-	line-height: 55px;
-	margin-top: 162px;
-	color: #cd010e;
-	margin-right: 36px;
-}
-.phone .container .phone-container-new .price{
-	float: left;
-	font-size: 24px;
-	width: 244px;
-	height: 46px;
-	line-height: 46px;
-	color: #fff;
-	text-align: center;
-	margin-top: 167px;
-	border-radius: 10px;
-	background: #cd010e;
-}
-.phone .container .phone-container-new .content{
-	position: absolute;
-	top: 240px;
-	left: 200px;
-	font-size: 37px;
-	color: #313131;
-
-}
-.phone .container .phone-container-new .spical{
-	position: absolute;
-	left: 200px;
-	top: 328px;
-	font-size: 28px;
-	color: #d7010f;
-}
-.phone .container .phone-container-new .spical-price{
-	position: absolute;
-	top: 325px;
-	left: 320px;
-	font-size: 34px;
-	color:#d7010f; 
-}
-.phone .container .phone-container-new .spical-zi{
-	position: absolute;
-	top: 330px;
-	left: 445px;
-	font-size: 26px;
-	color: #b1b1b1;
-}
-.phone .container .phone-container-new .spical-del-zi{
-	position: absolute;
-	top: 335px;
-	left: 578px;
-	font-size: 19px;
-	color:#b1b1b1;
-}
-.phone .container .phone-container-new .spical-del{
-	position: absolute;
-	top: 335px;
-	left: 494px;
-	font-size:21px; 
-	color:#b1b1b1;
-}
-.phone .phone-container-bottom{
-	border: 1px solid #dfdfdf;
-	width: 9px;
-	height: 9px;
-	margin-top: 147px;
-	margin-left: 632px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ff6700;
 	border-radius: 50%;
+	margin-right: 10px;
+	
 }
 /*精品资讯开始*/
 .content .container{
@@ -1100,6 +1079,9 @@
 	margin:12px 0;
 	line-height: 18px;
 	margin-left: 20px;
+}
+.bottom .bottom-list li:hover a{
+	color: red;
 }
 .bottom .bottom-list .name{
 	font-size: 11px;

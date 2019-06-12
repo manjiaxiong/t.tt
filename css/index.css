@@ -3,7 +3,7 @@
 	background-color: #242527;
 	text-align: center;
 	position: relative;
-}
+} 
 .top .top-logo{
 	float: left;
 	width: 18px;
@@ -22,7 +22,7 @@
 .top .top-cart{
 	float: right;
 	margin-right: 26px;
-	margin-top: 12px;
+	margin-top: 14px;
 	color: #a5a5a6;
 	cursor: pointer;
 }
@@ -44,23 +44,24 @@
 }
 .cart{
 	width: 358px;
-	height: 312px;
+	height: 0px;
 	position: absolute;
 	background-color: white;
 	right: 26px;
 	top: 60px;
 	border-radius: 10px;
-	border: 1px solid #ccc;
+	overflow: hidden;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 	/*display: none;*/
-	opacity: 0;
-	z-index: 0;
-	transition: all 1s;
+	/*opacity: 0;*/
+	/*z-index: 0;*/
+/*	transition: all 1s;*/
 }
-.top-cart:hover ~ .cart{
-	/*display: block;*/
+/*.top-cart:hover ~ .cart{
+	display: block;
 	opacity: 1;
 	z-index: 1
-}
+}*/
 .cart img{
 	margin-top: 92px;
 }
@@ -76,14 +77,17 @@
 /* 顶部区域结束 */
 /* 头部搜索区域开始 */
 .header{
-
+ 
 }
 .header .header-nav{
-	margin: 30px 0px;
+	/*margin: 20px 0px;*/
+	height: 76px;
+	line-height: 76px
 }
 .header .header-nav  .header-list li{
 float: left;
 margin-right: 32px;
+/*width: 100px;*/
 }
 .header .header-nav .header-list li a{
 	font-size: 14px;
@@ -102,7 +106,6 @@ margin-right: 32px;
 	position: absolute;
 	top: 50px;
 	z-index: 1;
-	
 }
 
 .header .header-search{
@@ -112,7 +115,8 @@ margin-right: 32px;
 	height: 34px;
 	border-radius: 17px;
 	border: 1px solid #ebebeb;
-	
+	z-index: 1001;
+	margin-top: 20px;
 }
 .header .header-search i{
 	width: 18px;
@@ -141,6 +145,7 @@ margin-right: 32px;
 	right: 7px;
 	font-size: 12px;
 	text-align: center;
+	line-height: 20px;
 }
 .header .header-search p{
 	font-size: 12px;
@@ -149,6 +154,11 @@ margin-right: 32px;
 	left: 34px;
 	top: 10px;
 	display: none;
+	line-height: 20px;
+}
+.search-input{
+	position: absolute;
+	top: 0px;
 }
 .header .header-search .search-input:focus ~ .hint{
 	display: none;
@@ -171,6 +181,7 @@ margin-right: 32px;
 	background-color: white;
 	padding-left: 20px;
 	position: relative;
+	margin-top: 65px;
 }
 .header .header-search .name-list a{
 	font-size: 14px;
@@ -200,6 +211,85 @@ margin-right: 32px;
 }
 .list5 li img{
 	/*width: 25%;*/
+}
+.header-Cont{
+	width: 100%;
+	/*height: 278px;*/
+	height: 0;
+	/*padding-bottom: 50px;*/
+	background-color: white;
+	position: absolute;
+	top: 130px;
+	z-index: 1000;
+	/*display: none;*/
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+	/*text-align: center;*/
+	overflow: hidden;
+}
+.header-Cont ul{
+	width: 1000px;
+	/*text-align: center;*/
+	margin: 0px auto;
+	overflow: hidden;
+	/*max-width: 1220px;*/
+	/*width: 400px;*/
+	position: absolute;
+	margin-left: 500px;
+	top: 0px;
+	left: 0px;
+	
+}
+.header-Cont ul li{
+	/*height: 200px;*/
+	width: 200px;
+	float: left;
+	/*background-color: green;*/
+	/*text-align: center;*/
+}
+.header-Cont ul .home-phone{
+	text-align: center;
+}
+.header-Cont ul .home-phone .home-phone-name{
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.header-Cont ul .home-phone .home-phone-price{
+	color: red;
+	font-size: 12px;
+	font-weight: bolder;
+}
+.header-Cont ul .home-phone .home-phone-price span{
+	color: gray;
+}
+.header-Cont ul .home-phone img{
+	vertical-align: middle;
+	margin-top: 46px;
+}
+.header-Cont .lab-Cont{
+	height: 50px;
+	line-height: 50px;
+}
+.header-Cont  .lab{
+	font-size: 14px;
+	color: #ccc;
+	margin-top: 20px;
+	height: 16px;
+	/*text-align: left;*/
+}
+.header-Cont .Cont5 {
+	margin-left: 800px;
+	padding-top: 70px;
+}
+.header-Cont .Cont5 li{
+	float: initial;
+	margin-bottom: 25px;
+}
+.header-Cont  .lab-name{
+	font-size: 12px;
+}
+.header-Cont .lab-Cont img{
+	vertical-align: middle;
 }
 /* 头部搜索区域结束 */
 /* 中间内容区域开始 */

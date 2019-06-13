@@ -23,3 +23,18 @@ function handleCart(){
 		animate(oShop,{height:0},false);
 	}
 }
+
+//2.处理手机展示
+handlePhone();
+function handlePhone(){
+	var oLi = document.querySelectorAll('.list .list-phone li');
+	var oUl = document.querySelector('.list .list-phone ul');
+	console.log(oUl);
+	for(var i =0;i<oLi.length;i++){
+		oLi[i].index=i;
+		oLi[i].onclick=function(){
+			oUl.style.marginLeft=-400*this.index+0+'px';
+		}
+
+	}	
+}

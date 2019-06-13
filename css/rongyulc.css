@@ -75,13 +75,12 @@
 /*顶部导航栏结束*/
 /*顶部图片开始*/
 .picture{
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 	width: 1920px;
-	overflow: hidden;
 }
 .picture .picture-contents{
 	width: 100%;
-	height: 1995px;
+	/*height: 1995px;*/
 	background: #131313;
 	overflow: hidden;
 }
@@ -105,137 +104,102 @@
 	width: 100%;
 	height: 100%;
 }
-.picture .picture-contents-bottom{
-	position: relative;
-	width: 100%;
-	height: 900px;
-	background: #fff;
-	border-bottom: 1px solid #cccc;
+
+
+
+.list{
+	width: 1920px;
+	height: 1125px;
+	overflow: hidden;
 }
-.picture .picture-contents-bottom .picture-contents-bottom-top{
-	position: relative;
+.list .list-content{
 	width: 100%;
-	height: 740px;
-	background: #f1f1f1;
-}
-.picture .picture-contents-bottom .word{
-	padding-top: 148px;
-	padding-left: 773px;
-	font-size:35px; 
-	color:#343434;
-	width: 323px;
-	height: 62px;
+	height: 200px;
 	text-align: center;
+	background-color: #ccc;
+
 }
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone1{
+.list .list-content .word{
+	padding-top: 100px;
+	font-size: 36px;
+	color: #000;
+}
+.list .list-phone{
+	position: relative;
+	width: 3920px;
+	height: 500px;
+	background-color: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.list .list-phone:after{
 	position: absolute;
-	top: 300px;
-	left: 786px;
-	width: 286px;
-	height: 466px;
+	bottom: -206px;
+	display: inline-block;
+	width: 100%;
+	height: 3px;
+	background-color: #ccc;
+	content: "";
 }
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone1 img{
+.list .list-phone ul{
+	position: absolute;
+	top: 150px;
+	left: 800px;
+	transition: all 2s;
+}
+.list .list-phone li{
+	float: left;
+	margin-right: 100px;
+	width: 350px;
+	height: 450px;
+	text-align: center;
+	cursor: pointer;
+}
+.list .list-phone li img{
 	width: 100%;
 	height: 100%;
 }
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone2{
-	position: absolute;
-	top: 300px;
-	left: 1222px;
-	width: 286px;
-	height: 466px;
+.list .list-phone li h1{
+	margin-top: 10px;
+	font-size: 20px;
+	color: #000;
 }
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone2 img{
-	width: 100%;
-	height: 100%;
+.list .list-phone li p{
+	margin-top: 20px;
+	font-size: 16px;
+	color: #ccc;
+}
+.list .list-phone li .icon{
+	margin-top: 10px;
+}
+.list .list-phone li .icon i{
+	
+	font-size: 25px;
+	color: blue;
+}
+.list .list-phone li .year{
+	margin-top: 20px;
+	font-size: 16px;
+	color: #ccc;
+}
+.list .list-phone li #shop{
+	display: inline-block;
+	margin-top: 10px;
+	line-height: 34px;
+	width: 100px;
+	height: 34px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #5f7ed7;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	
 }
 
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone3{
-	position: absolute;
-	top: 300px;
-	right: -120px;
-	width: 286px;
-	height: 466px;
-}
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone3 img{
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
-}
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone-version{
-	margin-top: 590px;
-	margin-left: 613px;
-}
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone-version ul{
-	width: 1291px;
-	height: 69px;
-}
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone-version li{
-	float: left;
-	width: 250px;
-	height: 69px;
-	text-align: center;
-	margin-left: 180px;
-}
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone-version li p{
-	font-size:16px; 
-	color:#000;
-	margin-bottom: 20px;
-}
-.picture .picture-contents-bottom .picture-contents-bottom-top .phone-version li span{
-	font-size: 13px;
-	color:#7f7f7f;
-}
-.picture .picture-contents-bottom .icon1{
-	position: absolute;
-	left: 895px;
-	bottom:-12px;
-	font-size: 20px;
-	color: #5e89f1;
-}
-.picture .picture-contents-bottom .icon2{
-	position: absolute;
-	left: 1324px;
-	bottom:-12px;
-	font-size: 20px;
-	color: #5e89f1;
-}
-.picture .picture-contents-bottom .icon3{
-	position: absolute;
-	right: 137px;
-	bottom:-12px;
-	font-size: 20px;
-	color: #5e89f1;
-}
-.picture .year-list{
-	margin-left: 880px;
-	width: 1291px;
-	height: 100px;
-	padding-top: 25px;
-}
-.picture .year-list li{
-	/*text-align: center;*/
-	float: left;
-	width: 127px;
-	height: 76px;
-	margin-right: 300px;
-}
-.picture .year-list li p{
-	font-size:11px;
-	color:#000;
-	margin-bottom: 22px;
-}
-.picture .year-list li span{
-	background: #5a85dc;
-	width: 101px;
-	height: 36px;
-	padding-left: 3px;
-	padding-right: 3px;
-	/*border: 1px solid #000;*/
-	border-radius: 2px;
-	font-size: 14px;
-	color: #fff;
-}
+
+
+
+
+
 /*顶部图片结束*/
 /*中部图片开始*/
 .middle{
@@ -278,7 +242,7 @@
 .picture-content ul li p{
 	width: 100px;
 	height: 100px;
-}
+}*/
 
 /*图片解释结束*/
 /*底部信息开始*/

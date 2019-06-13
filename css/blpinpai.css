@@ -52,10 +52,10 @@ body{
 .lg a:last-child{
 	right:80px;
 }
-.lg .gwc:hover + .a-1{
+.logo .gwc:hover + .a-1{
 	display:block;
 }
-.lg .a-1{
+.logo .a-1{
 	width: 350px;
 	height: 300px;
 	border-radius: 20px;
@@ -65,19 +65,20 @@ body{
 	right:28px;
 	text-align:center;
 	display:none;
+	z-index: 9;
 }
-.lg .a-1 i{
+.logo .a-1 i{
 	font-size: 60px;
 	color:#ccc;
 	position:absolute;
 	top:75px;
 	right:148px;
 }
-.lg .a-1 .a-01{
+.logo .a-1 .a-01{
 	font-size:20px;
 	margin-top:170px;
 }
-.lg .a-1 .a-02{
+.logo .a-1 .a-02{
 	font-size:12px;
 	margin-top:10px;
 	color:#ccc;
@@ -116,13 +117,64 @@ body{
 	top: 73px;
 	right:225px;
 }
+ #fix{
+	border-top:1px solid #ccc;
+	position: absolute;
+	top: 120px;
+	width: 100%;
+	height:0px;
+	background: #fff;
+	opacity: 0;
+	transition: all 0.3s;
+	z-index: 9;
+}
+ #fix ul li{
+	margin-top: 30px;
+	text-align: center;
+	width:200px;
+	float: left;
+	color:#666;
+	font-size: 14px;
+}
+ #fix ul li p{
+	float: left;
+}
+ #fix ul li div{
+	width: 200px;
+	height: 25px;
+	margin-top: 30px;
+}
+ #fix ul li div img{
+	margin-left: -80px;
+	vertical-align: middle;
+}
+ #fix ul li div span{
+	width: 30px;
+	color:black;
+	font-size: 15px;
+	margin-left:10px;
+}
+ #fix ul li:nth-child(1){
+	margin-left: 450px;
+}
+ #fix ul .chx .sh{
+	margin-left: 20px;
+}
+ #fix ul .chx .sh span{
+	margin-left: 5px;
+}
+ #fix ul li .x{
+	margin-left: -8px;
+}
 .logo .qp{
 	width: 100%;
-	height: 60px;
-	background:red;
+	height: 0px;
+	background:#fff;
 	position:fixed;
-	top:40px;
-	display:none;
+	top:0px;
+	opacity:0;
+	z-index: 9;
+	transition: all 0.3s;
 }
 .logo .qp .gd{
 	position:absolute;
@@ -134,25 +186,77 @@ body{
 	top: 20px;
 	right:440px;
 }
+.logo .qp .a-1{
+	width: 350px;
+	height: 300px;
+	border-radius: 20px;
+	background:#ececec;
+	position:absolute;
+	top:50px;
+	right:234px;
+	text-align:center;
+	display:none;
+}
 .logo .qp .fix-1 li{
 	line-height:60px;
+}
+.logo .gd:hover + .a-1{
+	display:block;
 }
 /* .logo结束 */
 .top{
 	width: 100%;
 	margin-bottom:15px;
 }
-.top img{
-	margin-top:25px;
+.top #log{
+	margin-top: 25px;
+	width: 1221px;
+	height: 499px;
+	float: left;
 	box-shadow:0px 3px 3px #e5e5e5;
+	position: relative;
 }
-.top .top-t{
+.top #log li{
+	position: absolute;
+	top: 0px;
+}
+.top #log li:nth-child(1){
+	z-index: 5;
+}
+.top #log-z{
+	width: 10px;
+	height: 10px;
+	border-radius:50%;
+	background: gray;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 605px;
+	left:50%;
+	margin-left: -18px;
+	z-index: 6;
+	cursor: pointer;
+}
+.top #log-y{
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	border-radius:50%;
+	background: #fff;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 605px;
+	right:50%;
+	margin-right: -18px;
+	z-index: 6;
+}
+.top-t{
+	margin-top: 25px;
 	width: 100%;
 	height: 250px;
 	float:left;
 	border-radius:5px;
 }
-.top .top-t li{
+.top-t li{
 	float:left;
 	cursor: pointer;
 }
@@ -267,7 +371,6 @@ body{
 /* .top结束 */
 .head{
 	width: 100%;
-	height: 5000px;
 }
 .head .sjpj .p{
 	box-sizing:border-box;
@@ -456,4 +559,210 @@ body{
 }
 .head .sjpj .gf ul .gfy a:after{
 	right:132px;
+}
+/* .head结束 */
+.conter{
+	width: 100%;
+	margin-top: 30px;
+}
+.conter .top-t li{
+	width: 25%;
+}
+.conter .lt{
+	width: 100%;
+	margin-top: -20px;
+	height: 375px;
+	background:#fff;
+	float: left;
+	border-radius:10px;
+}
+.conter .ltop{
+	height: 60px;
+	color: #666;
+	border-bottom: 1px solid #ccc;
+}
+.conter .ltop .z{
+	float: left;
+	line-height:60px;
+	margin-left:28px;
+	font-size:18px;
+}
+.conter .ltop a{
+	margin-top:15px;
+	margin-right:15px;
+	display:inline-block;
+	width: 90px;
+	height: 35px;
+	line-height:35px;
+	float: right;
+	text-align:center;
+	border: 1px solid #ccc;
+	border-radius:2px;
+}
+.conter .ltop .y{
+	color:#666;
+}
+.conter .lbom{
+	height: 314px;
+	float: left;
+}
+.conter .lbom li{
+	float: left;
+	width: 304px;
+	border-right: 1px solid #ccc;
+}
+.conter .lbom li a img{
+	margin: 30px 0px 30px 30px;
+}
+.conter .lbom li a strong{
+	display:inline-block;
+	margin:0px 30px 10px;
+	width: 250px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	color: #333;
+	font-weight:bold;
+	font-size:15px;
+}
+.conter .lbom li a p{
+	margin:0px 30px 15px;
+	font-size:9px;
+	color:#ccc;
+}
+.conter .lbom li a span{
+	margin:0px 30px 15px;
+	font-size: 12px;
+	color:#5079d9;
+}
+.conter .lbom li:last-child{
+	border: none;
+}
+/* .conter结束 */
+.foot{
+	margin-top:30px;
+	height: 330px;
+	background:#fff;
+}
+.foot .content{
+	padding-top:60px;
+}
+.foot .lb{
+	font-size:13px;
+}
+.foot .lb dl{
+	float: left;
+	margin-right:90px;
+	line-height:30px;
+}
+.foot .lb dt{
+	margin-bottom:18px;
+	color:#646464;
+	font-weight:bold;
+}
+.foot .lb dd a{
+	color:#969696;
+}
+.foot .lb dd a:hover{
+	color: #5089e1;
+}
+.foot .lb .zx{
+	width: 160px;
+	height: 160px;
+	float: right;
+}
+.foot .lb .zx h2{
+	font-size: 18px;
+	color: #5089e1;
+	float: right;
+	margin-bottom:20px;
+}
+.foot .lb .zx span{
+	float: right;
+	font-size:13px;
+	color:#969696;
+}
+.foot .lb .zx a{
+	display:inline-block;
+	width: 120px;
+	height: 30px;
+	line-height:30px;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	float: right;
+	text-align:center;
+	margin-top:15px;
+	color:#5089e1;
+	font-weight:bold;
+	position:relative;
+}
+.foot .lb .zx a:after{
+	content: '';
+	display:block;
+	width: 14px;
+	height: 14px;
+	background:#5089e1;
+	border-radius:50%;
+	position:absolute;
+	top:50%;
+	margin-top:-7px;
+	left: 25px;
+}
+.foot .lb .zx a span{
+	position:absolute;
+	right:85px;
+	color:#fff;
+	z-index:9;
+}
+.foot .db{
+	float:left;
+	width: 100%;
+	margin-top:25px;
+	border-top:1px solid #ccc;
+}
+.foot .db ul{
+	float:left;
+	width: 480px;
+	margin-top:25px;
+}
+.foot .db ul li{
+	float:left;
+	font-size: 12px;
+	color:#969696;
+}
+.foot .db ul li a{
+	float:left;
+	font-size: 12px;
+	color:#969696;
+	transition: all 0.3s;
+}
+.foot .db ul li .hl:hover{
+	color:blue;
+}
+.foot .db ul li span{
+	color: #dedede;
+}
+.foot .db .yxj{
+	margin-top:25px;
+	float: right;
+	height: 20px;
+	line-height:20px;
+	position:relative;
+}
+.foot .db .yxj img{
+	position:absolute;
+	top: 5px;
+	left: -18px;
+}
+.foot .db .yxj span{
+	font-size: 12px;
+	margin-left: 5px;
+}
+.foot .db .yxj i{
+	color:#ccc;
+	border:none;
+	margin-left: 15px;
+	display:inline-block;
+	transform:rotate(180deg);
+	cursor:pointer;
 }

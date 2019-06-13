@@ -11,7 +11,7 @@
 	margin-left: 20px;
 	margin-top: 12px;
 	margin-bottom: 15px;
-}
+} 
 .top .top-user{
 	float: right;
 	margin-right: 26px;
@@ -234,10 +234,13 @@ margin-right: 32px;
 	/*max-width: 1220px;*/
 	/*width: 400px;*/
 	position: absolute;
-	margin-left: 500px;
+	margin-left: 30%;
 	top: 0px;
 	left: 0px;
 	
+}
+.header-Cont .Cont4{
+	margin-left: 40%;
 }
 .header-Cont ul li{
 	/*height: 200px;*/
@@ -278,7 +281,7 @@ margin-right: 32px;
 	/*text-align: left;*/
 }
 .header-Cont .Cont5 {
-	margin-left: 800px;
+	margin-left: 40%;
 	padding-top: 70px;
 }
 .header-Cont .Cont5 li{
@@ -299,23 +302,23 @@ margin-right: 32px;
 	padding-top: 30px;
 	/*overflow: hidden;*/
 }
-.content .big-ad{
+/*.content .big-ad{
 	width: 100%;
 	height: 495px;
 	margin-bottom: 30px;
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	position: relative;
-	/*overflow: hidden;*/
-}
-.content .big-ad span{
+	overflow: hidden;
+}*/
+/*.content .big-ad span{
 	position: absolute;
 	width: 10px;
 	height: 10px;
 	display: inline-block;
 	border-radius: 50%;
-}
-.content .big-ad .skip1{
+}*/
+/*.content .big-ad .skip1{
 	top: 460px;
 	left: 590px;
 	background-color: #fff;
@@ -339,6 +342,9 @@ margin-right: 32px;
 }
 .content .big-ad a{
 	float: left;
+}*/
+#coursel{
+	margin-bottom: 30px;
 }
 .content .ad-list li{
 	float: left;
@@ -489,6 +495,15 @@ border-bottom-right-radius: 10px;
 	position: absolute;
 	top:45px; 
 	left:70px;
+}
+#hot{
+	overflow: hidden;
+}
+#hot ul{
+	width: 2440px;
+}
+#hot ul li{
+	width: 12.5%;
 }
 .list1 .hd-right span{
 /*line-height: 12px;*/

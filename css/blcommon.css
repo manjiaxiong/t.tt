@@ -11,10 +11,66 @@
 .content{
 	width: 1221px;
 	margin:0 auto;
+	box-sizing:border-box;
 }
 li{
 	list-style:none;
 }
 a{
 	text-decoration:none;
+}
+#div{
+	border: 4px solid #ccc;
+	position: absolute;
+	bottom:109px;
+	left: 119px;
+}
+ #fix{
+	border-top:1px solid #ccc;
+	position: absolute;
+	top: 120px;
+	width: 100%;
+	height:0px;
+	background: #fff;
+	opacity: 0;
+	transition: all 0.3s;
+	z-index: 9;
+}
+ #fix ul li{
+	margin-top: 30px;
+	text-align: center;
+	width:200px;
+	float: left;
+	color:#666;
+	font-size: 14px;
+}
+ #fix ul li p{
+	float: left;
+}
+ #fix ul li div{
+	width: 200px;
+	height: 25px;
+	margin-top: 30px;
+}
+ #fix ul li div img{
+	margin-left: -80px;
+	vertical-align: middle;
+}
+ #fix ul li div span{
+	width: 30px;
+	color:black;
+	font-size: 15px;
+	margin-left:10px;
+}
+ #fix ul li:nth-child(1){
+	margin-left: 450px;
+}
+ #fix ul .chx .sh{
+	margin-left: 20px;
+}
+ #fix ul .chx .sh span{
+	margin-left: 5px;
+}
+ #fix ul li .x{
+	margin-left: -8px;
 }

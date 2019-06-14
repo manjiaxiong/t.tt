@@ -117,55 +117,6 @@ body{
 	top: 73px;
 	right:225px;
 }
- #fix{
-	border-top:1px solid #ccc;
-	position: absolute;
-	top: 120px;
-	width: 100%;
-	height:0px;
-	background: #fff;
-	opacity: 0;
-	transition: all 0.3s;
-	z-index: 9;
-}
- #fix ul li{
-	margin-top: 30px;
-	text-align: center;
-	width:200px;
-	float: left;
-	color:#666;
-	font-size: 14px;
-}
- #fix ul li p{
-	float: left;
-}
- #fix ul li div{
-	width: 200px;
-	height: 25px;
-	margin-top: 30px;
-}
- #fix ul li div img{
-	margin-left: -80px;
-	vertical-align: middle;
-}
- #fix ul li div span{
-	width: 30px;
-	color:black;
-	font-size: 15px;
-	margin-left:10px;
-}
- #fix ul li:nth-child(1){
-	margin-left: 450px;
-}
- #fix ul .chx .sh{
-	margin-left: 20px;
-}
- #fix ul .chx .sh span{
-	margin-left: 5px;
-}
- #fix ul li .x{
-	margin-left: -8px;
-}
 .logo .qp{
 	width: 100%;
 	height: 0px;
@@ -292,14 +243,26 @@ body{
 .top .rm .an span:first-child{
 	color: #ccc;
 }
+.top .rmdiv{
+	width: 100%;
+	overflow: hidden;
+}
+.div{
+	border:1px solid #ccc;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
 .top .rmnr{
 	float: left;
-	width: 100%;
+	width: 2440px;
+	height: 400px;
 	background:#fff;
 	border-top:1px solid #ccc;
+	transition: all 1s;
 }
 .top .rmnr .jg{
-	width: 25%;
+	width: 305px;
 	height: 400px;
 	float: left;
 	text-align:center;
@@ -320,9 +283,8 @@ body{
 	color:#ccc;
 }
 .top .rmnr .jg div{
-	width: 10px;
-	height: 10px;
-	margin-top:10px;
+	width: 8px;
+	height: 8px;
 	display:inline-block;
 	border-radius:50%;
 }
@@ -331,15 +293,17 @@ body{
 	height: 10px;
 	border: 1px solid #ccc;
 }
+.div{
+	border:2px solid #000;
+}
 .top .rmnr .jg .h{
+	display:inline-block;
+	border-radius:50%;
 	background:red;
+	overflow: hidden;
 }
 .top .rmnr .jg .l{
 	background:green;
-	margin-left:10px;
-}
-.top .rmnr .jg .a{
-	background:blue;
 	margin-left:10px;
 }
 .top .rmnr .jg .j{

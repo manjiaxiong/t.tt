@@ -25,18 +25,18 @@ a{
 	bottom:109px;
 	left: 119px;
 }
- #fix{
+#fixx{
 	border-top:1px solid #ccc;
 	position: absolute;
 	top: 120px;
 	width: 100%;
 	height:0px;
 	background: #fff;
-	opacity: 0;
-	transition: all 0.3s;
+	opacity:0;
+	transition: all 0.4s;
 	z-index: 9;
 }
- #fix ul li{
+ #fixx li{
 	margin-top: 30px;
 	text-align: center;
 	width:200px;
@@ -44,33 +44,33 @@ a{
 	color:#666;
 	font-size: 14px;
 }
- #fix ul li p{
+ #fixx li p{
 	float: left;
 }
- #fix ul li div{
+ #fixx li div{
 	width: 200px;
 	height: 25px;
 	margin-top: 30px;
 }
- #fix ul li div img{
+ #fixx li div img{
 	margin-left: -80px;
 	vertical-align: middle;
 }
- #fix ul li div span{
+ #fixx li div span{
 	width: 30px;
 	color:black;
 	font-size: 15px;
 	margin-left:10px;
 }
- #fix ul li:nth-child(1){
+ #fixx li:nth-child(1){
 	margin-left: 450px;
 }
- #fix ul .chx .sh{
+ #fixx .chx .sh{
 	margin-left: 20px;
 }
- #fix ul .chx .sh span{
+ #fixx .chx .sh span{
 	margin-left: 5px;
 }
- #fix ul li .x{
+ #fixx li .x{
 	margin-left: -8px;
 }

@@ -1,4 +1,4 @@
-50//匀速动画封装函数
+//匀速动画封装函数
 function animation(obj,attr,iTarget){
 	//防止用户多次点击
 	clearInterval(obj.timer);

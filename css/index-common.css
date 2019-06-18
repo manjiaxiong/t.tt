@@ -59,6 +59,7 @@
 		margin-top: -35px;
 		z-index: 100;
 		cursor: pointer;
+		text-align: center;
 	}
 #coursel .active{
 		background-color: rgba(255,0,0,0.7);

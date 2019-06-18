@@ -27,7 +27,7 @@
 	cursor: pointer;
 }
 .top .nav{
-	margin-left: 500px;
+	margin-left: 20%;
 }
 .top .nav .nav-list li{
 	float: left;
@@ -284,6 +284,15 @@ margin-right: 32px;
 	margin-left: 40%;
 	padding-top: 70px;
 }
+.header-Cont .Cont2{
+	margin-left: 20%;
+}
+.header-Cont .Cont3{
+	margin-left: 15%;
+}
+.header-Cont .Cont1{
+	margin-left: 20%;
+}
 .header-Cont .Cont5 li{
 	float: initial;
 	margin-bottom: 25px;
@@ -345,6 +354,8 @@ margin-right: 32px;
 }*/
 #coursel{
 	margin-bottom: 30px;
+	border-radius: 10px;
+	overflow: hidden;
 }
 .content .ad-list li{
 	float: left;

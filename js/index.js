@@ -36,7 +36,8 @@ function oMaskEvent(){
 		oRed.style.position='absolute';
 		oRed.style.zIndex=3333;
 		oRed.style.bottom='10%';
-		oRed.style.right='35%';
+		oRed.style.right='50%';
+		oRed.style.marginRight='-190px';
 		oMask.style.position='fixed';
 		oMask.style.top='0px';
 		oMask.style.left='0px';
@@ -56,6 +57,7 @@ function oMaskEvent(){
 		oRed.style.bottom='0px';
 		oRed.style.right='0px';
 		oRed.style.width='100px'
+		oRed.style.marginRight='0px';
 	}
 }
 //3header的数据加载

@@ -227,7 +227,7 @@ margin-right: 32px;
 	overflow: hidden;
 }
 .header-Cont ul{
-	width: 1000px;
+	/*width: 1000px;*/
 	/*text-align: center;*/
 	margin: 0px auto;
 	overflow: hidden;
@@ -240,7 +240,9 @@ margin-right: 32px;
 	
 }
 .header-Cont .Cont4{
-	margin-left: 40%;
+	left: 50%;
+	width: 400px;
+	margin-left: -200px;
 }
 .header-Cont ul li{
 	/*height: 200px;*/
@@ -281,17 +283,25 @@ margin-right: 32px;
 	/*text-align: left;*/
 }
 .header-Cont .Cont5 {
-	margin-left: 40%;
+	width: 200px;
+	margin-left: -100px;
+	left: 50%;
 	padding-top: 70px;
 }
 .header-Cont .Cont2{
-	margin-left: 20%;
+	margin-left: -400px;
+	width: 800px;
+	left:50%; 
 }
 .header-Cont .Cont3{
-	margin-left: 15%;
+	margin-left: -500px;
+	left: 50%;
+	width: 1000px;
 }
 .header-Cont .Cont1{
-	margin-left: 20%;
+	margin-left: -500px;
+	left: 50%;
+	width: 1000px;
 }
 .header-Cont .Cont5 li{
 	float: initial;

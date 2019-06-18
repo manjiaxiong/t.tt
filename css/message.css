@@ -1,4 +1,4 @@
-/*/*顶部上部开始 */
+/*/*顶部上部开始 */ 
 .top-top{
 	height: 20px;
 	background-color: #53617b;
@@ -13,11 +13,11 @@
 }
 .top-middle img{
 		float: left;
-		margin-left: 226px;
+		margin-left: 10%;
 		margin-top: 5px;
 }
 .top-middle .top-middle-list{
-	margin-right: 80px;
+	margin-right: 4%;
 	float: right;
 }
 .top-middle .top-middle-list li{
@@ -54,7 +54,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 14px;
-	width: 1500px;
+	width: 80%;
 	height: 490px;
 	/*background-color: red;*/
 	border: 1px solid #d1d1d1;
@@ -64,6 +64,10 @@
 	height: 40px;
 	border-bottom:  1px solid #d1d1d1;
 	line-height: 40px;
+}
+.middle .container .information li:first-child{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .middle .container .information li:last-child{
 	border-bottom:none;

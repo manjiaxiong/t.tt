@@ -11,9 +11,9 @@ function animation(obj,attr,iTarget){
 		}
 		//判断速度的取值
 		if(currentVal < iTarget){
-			iSpeed = 50;
+			iSpeed = 20;
 			}else{
-				iSpeed = -50;
+				iSpeed = -20;
 			}
 			//动画的终止条件
 		if(Math.abs(iTarget - currentVal) < Math.abs(iSpeed)){

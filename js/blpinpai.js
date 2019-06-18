@@ -75,7 +75,7 @@ oFixbox.onmouseout=function(){
 	oFixFs.style.display='none';
 	oFixFw.style.display='none';
 }
-// logo部分
+// 移动部分
 var oFixQp = document.querySelector('.logo .qp .fix-1');
 var oBtna = oFixQp.children;
 var oFixBox = document.getElementById('fixbox1');
@@ -131,6 +131,8 @@ oBtna[4].onmouseover=function(){
 }
 oFixBox.onmouseover=function(){
 	oFixBox.style.height='300px';
+	// animation(oFixBox,'height:300',true);
+	oFixBox.style.display='block';
 }
 //监听每个页面
 oFixHome1.onmouseover=function(){

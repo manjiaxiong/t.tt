@@ -33,7 +33,7 @@ function animation(obj,attr,iTarget){
 				obj.style[attr] = currentVal + iSpeed + "px";
 			}
 		}
-	},30)
+	},0)
 }
 
 //获取垂直方向上的滚动距离

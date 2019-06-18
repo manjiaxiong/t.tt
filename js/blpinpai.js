@@ -1,20 +1,162 @@
 // logo部分
 var oFix = document.querySelector('.logo .fix .fix-1');
 var oBtnn = oFix.children;
-var oFix2 = document.getElementById('fixx');
-for(var i=0;i<oBtnn.length;i++){
-	oBtnn[i].onmouseover=function(){
-		oFix2.style.opacity=1;
-		oFix2.style.height='300px';
-	}
+var oFixbox = document.getElementById('fixbox');
+var oFixHome = document.getElementById('fixx');
+var oFixPhone = document.getElementById('fixsj');
+var oFixGf = document.getElementById('fixgf');
+var oFixFs = document.getElementById('fixfs');
+var oFixFw = document.getElementById('fixfw');
+oBtnn[0].onmouseover=function(){
+	oFixFw.style.display='none';
+	oFixGf.style.display='none';
+	oFixFs.style.display='none';
+	oFixPhone.style.display='none';
+	oFixbox.style.height='300px';
+	oFixHome.style.display='block';
 }
-oFix2.onmouseover=function(){
-		oFix2.style.opacity=1;
-		oFix2.style.height='300px';
-	}
-oFix2.onmouseout=function(){
-		oFix2.style.opacity=0;
-		oFix2.style.height='0px';
+oBtnn[1].onmouseover=function(){
+	oFixGf.style.display='none';
+	oFixFw.style.display='none';
+	oFixFs.style.display='none';
+	oFixHome.style.display='none';
+	oFixbox.style.height='300px';
+	oFixPhone.style.display='block';
+}
+oBtnn[2].onmouseover=function(){
+	oFixHome.style.display='none';
+	oFixFw.style.display='none';
+	oFixFs.style.display='none';
+	oFixbox.style.height='300px';
+	oFixPhone.style.display='none';
+	oFixGf.style.display='block';
+}
+oBtnn[3].onmouseover=function(){
+	oFixHome.style.display='none';
+	oFixFw.style.display='none';
+	oFixbox.style.height='300px';
+	oFixPhone.style.display='none';
+	oFixGf.style.display='none';
+	oFixFs.style.display='block';
+}
+oBtnn[4].onmouseover=function(){
+	oFixHome.style.display='none';
+	oFixbox.style.height='300px';
+	oFixPhone.style.display='none';
+	oFixGf.style.display='none';
+	oFixFs.style.display='none';
+	oFixFw.style.display='block';
+}
+oFixbox.onmouseover=function(){
+	oFixbox.style.height='300px';
+}
+//监听每个页面
+oFixHome.onmouseover=function(){
+	oFixHome.style.display='block';
+}
+oFixPhone.onmouseover=function(){
+	oFixPhone.style.display='block';
+}
+oFixGf.onmouseover=function(){
+	oFixGf.style.display='block';
+}
+oFixFs.onmouseover=function(){
+	oFixFs.style.display='block';
+}
+oFixFw.onmouseover=function(){
+	oFixFw.style.display='block';
+}
+//移除消失
+oFixbox.onmouseout=function(){
+	oFixbox.style.height='0px';
+	oFixPhone.style.display='none';
+	oFixHome.style.display='none';
+	oFixGf.style.display='none';
+	oFixFs.style.display='none';
+	oFixFw.style.display='none';
+}
+// logo部分
+var oFixQp = document.querySelector('.logo .qp .fix-1');
+var oBtna = oFixQp.children;
+var oFixBox = document.getElementById('fixbox1');
+var oFixHome1 = document.getElementById('fixx1');
+var oFixPhone1 = document.getElementById('fixsj1');
+var oFixGf1 = document.getElementById('fixgf1');
+var oFixFs1 = document.getElementById('fixfs1');
+var oFixFw1 = document.getElementById('fixfw1');
+oBtna[0].onmouseover=function(){
+	oFixFw1.style.display='none';
+	oFixGf1.style.display='none';
+	oFixFs1.style.display='none';
+	oFixPhone1.style.display='none';
+	oFixBox.style.height='300px';
+	oFixBox.style.display='block';
+	oFixHome1.style.display='block';
+}
+oBtna[1].onmouseover=function(){
+	oFixGf1.style.display='none';
+	oFixFw1.style.display='none';
+	oFixFs1.style.display='none';
+	oFixHome1.style.display='none';
+	oFixBox.style.height='300px';
+	oFixPhone1.style.display='block';
+	oFixBox.style.display='block';
+}
+oBtna[2].onmouseover=function(){
+	oFixHome1.style.display='none';
+	oFixFw1.style.display='none';
+	oFixFs1.style.display='none';
+	oFixBox.style.height='300px';
+	oFixPhone1.style.display='none';
+	oFixGf1.style.display='block';
+	oFixBox.style.display='block';
+}
+oBtna[3].onmouseover=function(){
+	oFixHome1.style.display='none';
+	oFixFw1.style.display='none';
+	oFixBox.style.height='300px';
+	oFixPhone1.style.display='none';
+	oFixGf1.style.display='none';
+	oFixFs1.style.display='block';
+	oFixBox.style.display='block';
+}
+oBtna[4].onmouseover=function(){
+	oFixHome1.style.display='none';
+	oFixBox.style.height='300px';
+	oFixPhone1.style.display='none';
+	oFixGf1.style.display='none';
+	oFixFs1.style.display='none';
+	oFixFw1.style.display='block';
+	oFixBox.style.display='block';
+}
+oFixBox.onmouseover=function(){
+	oFixBox.style.height='300px';
+}
+//监听每个页面
+oFixHome1.onmouseover=function(){
+	oFixHome1.style.display='block';
+}
+oFixPhone1.onmouseover=function(){
+	oFixPhone1.style.display='block';
+}
+oFixGf1.onmouseover=function(){
+	oFixGf1.style.display='block';
+}
+oFixFs1.onmouseover=function(){
+	oFixFs1.style.display='block';
+}
+oFixFw1.onmouseover=function(){
+	oFixFw1.style.display='block';
+}
+//移除消失
+oFixBox.onmouseout=function(){
+	oFixBox.style.height='0px';
+	oFixBox.style.display='none';
+	oFixPhone1.style.display='none';
+	oFixHome1.style.display='none';
+	oFixGf1.style.display='none';
+	oFixFs1.style.display='none';
+	oFixFw1.style.display='none';
 }
 //顶部固定
 var oFix3 = document.querySelector('.logo .qp');
@@ -23,14 +165,15 @@ window.onscroll=function(){
 	if(iTop>=87){
 		oFix3.style.height='60px';
 		oFix3.style.opacity=1;
+		oFix3.style.display='block';
 	}else{
 		oFix3.style.height='0px';
 		oFix3.style.opacity=0;
+		oFix3.style.display='none';
 	}
 }
-//自适应
 
-//top部分
+//top轮播图部分
 var oLogo = document.getElementById('log');
 var oBtn = document.getElementById('btn');
 var oLogoLi = oLogo.children;

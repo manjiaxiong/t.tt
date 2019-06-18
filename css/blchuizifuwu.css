@@ -20,20 +20,25 @@ body{
 	top:0px;
 }
 .lg .lg-ul{
+	width: 50%;
+	height: 100%;
 	color:#c3c3c4;
 	line-height:45px;
-	margin:auto;
-	margin-left:470px;
+	margin-left:18%;
 }
-.lg .lg-li{
-	margin-left:40px;
+.lg .lg-ul .lg-li{
 	float:left;
-	font-size:12px;
-	cursor:pointer;
-	transition:all 1s;
-	font-weight:bold;
+	margin-left:3%;
+	height: 100%;
 }
-.lg .lg-li:hover{
+.lg .lg-ul .lg-li a{
+	position: relative;
+	color:#ccc;
+	font-size: 12px;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+.lg .lg-ul .lg-li a:hover{
 	color: #e5e5e5;
 }
 .lg a{
@@ -82,6 +87,9 @@ body{
 	margin-top:10px;
 	color:#ccc;
 }
+.logo .fix-1{
+	margin-left:-12%;
+}
 .logo .fix{
 	width: 100%;
 	height:75px;
@@ -107,7 +115,7 @@ body{
 	color: blue;
 }
 .logo .ggtp img{
-	width: 1920px;
+	width: 100%;
 	height: 614px;
 }
 /* .logo结束 */
@@ -370,4 +378,22 @@ body{
 	display:inline-block;
 	transform:rotate(180deg);
 	cursor:pointer;
+}
+/* 固定返回 */
+#fixbottom{
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 20%;
+	opacity: 0;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 9;
+	transition: all 0.3s;
+}
+#fixbottom img{
+	width: 50%;
+	height: 50%;
+	margin: 25%;
 }

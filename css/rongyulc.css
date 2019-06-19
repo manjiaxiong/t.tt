@@ -8,7 +8,7 @@
 .top .log{
 	position: absolute;
 	top: 12px;
-	left: 21px;
+	left: 55px;
 	width: 50px;
 	height: 100%;
 
@@ -16,7 +16,7 @@
 .top .list{
 	position: absolute;
 	top: 0;
-	left: 498px;
+	left: 344px;
 	width: 894px;
 	height: 100%;
 }
@@ -76,7 +76,7 @@
 /*顶部图片开始*/
 .picture{
 	margin-bottom: 30px;
-	width: 1920px;
+	width: 100%;
 }
 .picture .picture-contents{
 	width: 100%;
@@ -108,7 +108,7 @@
 
 
 .list{
-	width: 1920px;
+	width: 100%;
 	height: 1125px;
 	overflow: hidden;
 }
@@ -143,7 +143,7 @@
 .list .list-phone ul{
 	position: absolute;
 	top: 150px;
-	left: 800px;
+	left: 490px;
 	transition: all 2s;
 }
 .list .list-phone li{
@@ -197,28 +197,30 @@
 
 
 
-
-
-
 /*顶部图片结束*/
 /*中部图片开始*/
 .middle{
-	border-top: 1px solid #cccc;
-	margin-left: 349px;
-	width: 1180px;
+	width: 100%;
 	height: 389px;
 	margin-bottom: 50px;
 }
-.middle img{
-	padding-top: 112px;
+.middle .middle-img{
+	border-top: 1px solid #cccc;
+	width: 1280px;
+	height: 100%;
+	margin: 0 auto;
 }
 /*中部图片结束*/
 /*图片解释开始*/
 .picture-content{
-	border-top: 1px solid #cccc;
-	width: 1180px;
+	
+	width: 100%;
 	height: 1298px;
-	margin-left: 349px;
+}
+.picture-content .picture-content-container{
+	width: 1280px;
+	height: 100%;
+	margin: 20px auto;
 }
 .picture-content ul{
 	margin-top: 50px;
@@ -246,68 +248,66 @@
 
 /*图片解释结束*/
 /*底部信息开始*/
-.foot{
-	border-top: 1px solid #ccc;
+#foot{
+	border-top: 1px solid #000;
 	width: 100%;
 	height: 343px;
 	background: #f9f9f9;
 }
-.foot .foot-content{
-	margin-left: 341px;
-	width: 1330px;
+.foot1 .foot-content{
+	margin: 10px auto;
+	width: 1280px;
 	height: 180px;
-	margin-top: 55px;
 	border-bottom: 1px solid #e9e9e9;
-	/*background: red;*/
 }
-.foot .foot-content .foot-content-left{
+.foot1 .foot-content .foot-content-left{
 	float: left;
 	height: 180px;
 	width: 600px;
 }
- .foot .foot-content .foot-content-left .links-item{
+ .foot1 .foot-content .foot-content-left .links-item{
  	float: left;
  	width: 80px;
  	height: 116px;
  	margin-right: 70px;
  }
- .foot .foot-content .foot-content-left .links-item dt{
+ .foot1 .foot-content .foot-content-left .links-item dt{
  	margin-bottom: 29px;
  	font-size: 13px;
  	color: #000;
  }
- .foot .foot-content .foot-content-left .links-item dd{
+ .foot1 .foot-content .foot-content-left .links-item dd{
  	margin-bottom: 18px;
  	font-size:12px; 
  	color:#969696;
  	cursor: pointer;
  }
-  .foot .foot-content .foot-content-left .links-item a:hover dd{
+  .foot1 .foot-content .foot-content-left .links-item a:hover dd{
   	color: #5079d9;
   }
-.foot .foot-content .foot-content-right{
+.foot1 .foot-content .foot-content-right{
 	float: right;
 	width: 300px;
 	height: 180px;
 	text-align: center;
 }
-.foot .foot-content .foot-content-right .num{
+.foot1 .foot-content .foot-content-right .num{
 	font-size: 18px;
 	color:#5079d9;
 	margin-bottom: 12px;
 }
-.foot .foot-content .foot-content-right .working-time{
+.foot1 .foot-content .foot-content-right .working-time{
 	font-size:12px; 
 	color:#999;
 	margin-bottom: 5px;
 }
-.foot .foot-content .foot-content-right .telephone-fare{
+.foot1 .foot-content .foot-content-right .telephone-fare{
 	font-size:12px; 
 	color:#999;
 	margin-right: -62px;
 	margin-bottom: 12px;
 }
-.foot .foot-content .foot-content-right .online{
+.foot1 .foot-content .foot-content-right .online{
 	position: relative;
 	width: 135px;
 	height: 40px;
@@ -318,32 +318,32 @@
 	background-color: #ffffff;
 	border-radius: 5px;
 }
-.foot .foot-content .foot-content-right .online i{
+.foot1 .foot-content .foot-content-right .online i{
 	position: absolute;
 	top: 13px;
 	left: 22px;
 }
-.foot .foot-content .foot-content-right .online p{
+.foot1 .foot-content .foot-content-right .online p{
 	margin-left: 18px;
 	margin-top: 13px;
 }
-.foot .foot-bottom{
+.foot1 .foot-bottom{
 	margin-left: 341px;
 	width: 346px;
 	height: 30px;
 	margin-top: 25px;
 }
-.foot .foot-bottom p{
+.foot1 .foot-bottom p{
 	font-size: 6px;
 	color:#696969;
 	margin-bottom: 10px;
 }
-.foot .foot-bottom p a{
+.foot1 .foot-bottom p a{
 	font-size: 6px;
 	color:#696969;
 
 }
-.foot .foot-bottom p a:hover{
+.foot1 .foot-bottom p a:hover{
 	color: #5079d9;
 }
 /*底部信息结束*/

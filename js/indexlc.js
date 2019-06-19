@@ -10,7 +10,7 @@ function handleForum(){
 	var timer =null;
 	//2.绑定事件
 	oForum.onmouseenter=function(){
-		animate(listContent,{height:550},false);
+		animate(listContent,{height:350},false);
 		
 	}
 	oForum.onmouseleave=function(){

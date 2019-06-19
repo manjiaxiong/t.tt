@@ -9,7 +9,7 @@ function CartEvent(){
 	CartBtn.onmouseenter=function(){
 		// CartCont.style.display='block';
 		clearTimeout(hide);
-		CartCont.style.zIndex=1;
+		CartCont.style.zIndex=2000;
 		CartCont.innerHTML='<div class="loading"></div>'
 		animation(CartCont,{height:358,opacity:100},true,function(){
 			CartCont.style.border='1px solid #ccc';
@@ -35,8 +35,9 @@ function oMaskEvent(){
 		oRed.src="../images/红包.png";
 		oRed.style.position='absolute';
 		oRed.style.zIndex=3333;
-		oRed.style.bottom='200px';
-		oRed.style.right='800px';
+		oRed.style.bottom='10%';
+		oRed.style.right='50%';
+		oRed.style.marginRight='-190px';
 		oMask.style.position='fixed';
 		oMask.style.top='0px';
 		oMask.style.left='0px';
@@ -56,6 +57,7 @@ function oMaskEvent(){
 		oRed.style.bottom='0px';
 		oRed.style.right='0px';
 		oRed.style.width='100px'
+		oRed.style.marginRight='0px';
 	}
 }
 //3header的数据加载

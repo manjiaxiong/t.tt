@@ -25,18 +25,26 @@ a{
 	bottom:109px;
 	left: 119px;
 }
- #fix{
+#fixbox{
 	border-top:1px solid #ccc;
 	position: absolute;
 	top: 120px;
 	width: 100%;
 	height:0px;
 	background: #fff;
-	opacity: 0;
+	z-index:9;
 	transition: all 0.3s;
-	z-index: 9;
 }
- #fix ul li{
+#fixbox img{
+	width: 35px;
+	height: 35px;
+}
+.fixx{
+	height: 300px;
+ 	margin-left:-10%;
+ 	display: none;
+ }
+.fixx li{
 	margin-top: 30px;
 	text-align: center;
 	width:200px;
@@ -44,33 +52,68 @@ a{
 	color:#666;
 	font-size: 14px;
 }
- #fix ul li p{
+.fixx li p{
 	float: left;
 }
- #fix ul li div{
+.fixx li div{
 	width: 200px;
 	height: 25px;
 	margin-top: 30px;
 }
- #fix ul li div img{
+.fixx li div img{
 	margin-left: -80px;
 	vertical-align: middle;
 }
- #fix ul li div span{
+.fixx li div span{
 	width: 30px;
 	color:black;
 	font-size: 15px;
 	margin-left:10px;
 }
- #fix ul li:nth-child(1){
+.fixx li:nth-child(1){
 	margin-left: 450px;
 }
- #fix ul .chx .sh{
+.fixx .chx .sh{
 	margin-left: 20px;
 }
- #fix ul .chx .sh span{
+.fixx .chx .sh span{
 	margin-left: 5px;
 }
- #fix ul li .x{
+.fixx li .x{
 	margin-left: -8px;
+}
+#fixsj{
+	margin-left: -10%;
+	display: none;
+}
+#fixsj img{
+	width: 77px;
+	height: 114px;
+}
+#fixsj li{
+	width: 150px;
+	text-align: center;
+	float: left;
+	margin-top:55px;
+}
+#fixsj li h5{
+	margin-top:15px;
+	margin-bottom:10px;
+}
+#fixsj li p{
+	color: red;
+	font-weight: bold;
+}
+#fixsj li:nth-child(1){
+	margin-left:35%;
+}
+.bb{
+	margin-left:-22px;
+}
+.po{
+	margin-left:17px;
+}
+#fixfw h4{
+	text-align: center;
+	margin-top:15%;
 }

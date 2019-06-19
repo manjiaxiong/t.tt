@@ -20,20 +20,25 @@ body{
 	top:0px;
 }
 .lg .lg-ul{
+	width: 50%;
+	height: 100%;
 	color:#c3c3c4;
 	line-height:45px;
-	margin:auto;
-	margin-left:470px;
+	margin-left:18%;
 }
-.lg .lg-li{
-	margin-left:40px;
+.lg .lg-ul .lg-li{
 	float:left;
-	font-size:12px;
-	cursor:pointer;
-	transition:all 1s;
-	font-weight:bold;
+	margin-left:3%;
+	height: 100%;
 }
-.lg .lg-li:hover{
+.lg .lg-ul .lg-li a{
+	position: relative;
+	color:#ccc;
+	font-size: 12px;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+.lg .lg-ul .lg-li a:hover{
 	color: #e5e5e5;
 }
 .lg a{
@@ -65,7 +70,8 @@ body{
 	right:28px;
 	text-align:center;
 	display:none;
-	z-index: 9;
+	opacity: 0;
+	z-index: 12;
 }
 .logo .a-1 i{
 	font-size: 60px;
@@ -88,6 +94,9 @@ body{
 	height:75px;
 	background:#fff;
 	box-shadow:0px 3px 3px #e5e5e5;
+}
+.logo .fix-1{
+	margin-left:-12%;
 }
 .logo .fix-1 li{
 	float:left;
@@ -125,7 +134,8 @@ body{
 	top:0px;
 	opacity:0;
 	z-index: 9;
-	transition: all 0.3s;
+	transition: all 0.5s;
+	display: none;
 }
 .logo .qp .gd{
 	position:absolute;
@@ -150,9 +160,6 @@ body{
 }
 .logo .qp .fix-1 li{
 	line-height:60px;
-}
-.logo .gd:hover + .a-1{
-	display:block;
 }
 /* .logo结束 */
 .top{
@@ -303,7 +310,7 @@ body{
 	overflow: hidden;
 }
 .top .rmnr .jg .l{
-	background:green;
+	background:blue;
 	margin-left:10px;
 }
 .top .rmnr .jg .j{
@@ -389,7 +396,6 @@ body{
 .head .sjpj .pj .pj-nr div{
 	width: 8px;
 	height: 8px;
-	margin-top:10px;
 	display:inline-block;
 	border-radius:50%;
 }
@@ -399,13 +405,12 @@ body{
 	border: 1px solid #ccc;
 }
 .head .sjpj .pj .pj-nr .h{
+	display:inline-block;
+	border-radius:50%;
 	background:red;
+	overflow: hidden;
 }
 .head .sjpj .pj .pj-nr .l{
-	background:green;
-	margin-left:10px;
-}
-.head .sjpj .pj .pj-nr .a{
 	background:blue;
 	margin-left:10px;
 }
@@ -550,18 +555,6 @@ body{
 	line-height:60px;
 	margin-left:28px;
 	font-size:18px;
-}
-.conter .ltop a{
-	margin-top:15px;
-	margin-right:15px;
-	display:inline-block;
-	width: 90px;
-	height: 35px;
-	line-height:35px;
-	float: right;
-	text-align:center;
-	border: 1px solid #ccc;
-	border-radius:2px;
 }
 .conter .ltop .y{
 	color:#666;
@@ -729,4 +722,98 @@ body{
 	display:inline-block;
 	transform:rotate(180deg);
 	cursor:pointer;
+}
+/* 固定 */
+#fixbox1{
+	border-top:1px solid #ccc;
+	position: fixed;
+	top: 60px;
+	width: 100%;
+	height:0px;
+	background: #fff;
+	display: none;
+	z-index:11;
+	transition: all 0.3s;
+}
+#fixbox1 img{
+	width: 35px;
+	height: 35px;
+}
+.fixx{
+	height: 300px;
+ 	margin-left:-10%;
+ 	display: none;
+ }
+.fixx li{
+	margin-top: 30px;
+	text-align: center;
+	width:200px;
+	float: left;
+	color:#666;
+	font-size: 14px;
+}
+.fixx li p{
+	float: left;
+}
+.fixx li div{
+	width: 200px;
+	height: 25px;
+	margin-top: 30px;
+}
+.fixx li div img{
+	margin-left: -80px;
+	vertical-align: middle;
+}
+.fixx li div span{
+	width: 30px;
+	color:black;
+	font-size: 15px;
+	margin-left:10px;
+}
+.fixx li:nth-child(1){
+	margin-left: 450px;
+}
+.fixx .chx .sh{
+	margin-left: 20px;
+}
+.fixx .chx .sh span{
+	margin-left: 5px;
+}
+.fixx li .x{
+	margin-left: -8px;
+}
+#fixsj1{
+	margin-left: -10%;
+	display: none;
+}
+#fixsj1 img{
+	width: 77px;
+	height: 114px;
+}
+#fixsj1 li{
+	width: 150px;
+	text-align: center;
+	float: left;
+	margin-top:55px;
+}
+#fixsj1 li h5{
+	margin-top:15px;
+	margin-bottom:10px;
+}
+#fixsj1 li p{
+	color: red;
+	font-weight: bold;
+}
+#fixsj1 li:nth-child(1){
+	margin-left:35%;
+}
+.bb{
+	margin-left:-22px;
+}
+.po{
+	margin-left:17px;
+}
+#fixfw1 h4{
+	text-align: center;
+	margin-top:15%;
 }

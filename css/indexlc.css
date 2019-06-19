@@ -1,5 +1,6 @@
 .top{
 	position: relative;
+	width: 100%;
 	margin-bottom: 27px;
 }
 .top .container{
@@ -10,13 +11,11 @@
 .top .container .container-piture{
 	float: left;
 	height: 60px;
-	width: 458px;
-	box-sizing: border-box;
-}
-.top .container .container-piture{
-	padding-left: 323px;
-	padding-top: 8px;
+	width: 50px;
 	line-height: 60px;
+	padding-left: 80px;
+	padding-top: 8px;
+	box-sizing: border-box;
 }
 .top .container .container-left-list{
 	float: left;
@@ -59,7 +58,6 @@
 	margin-left: 8px;
 	margin-right: 8px;
 }
-
 
 .top .list-content{
 	position: absolute;

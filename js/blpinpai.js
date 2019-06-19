@@ -75,7 +75,7 @@ oFixbox.onmouseout=function(){
 	oFixFs.style.display='none';
 	oFixFw.style.display='none';
 }
-// 移动部分
+// logo部分
 var oFixQp = document.querySelector('.logo .qp .fix-1');
 var oBtna = oFixQp.children;
 var oFixBox = document.getElementById('fixbox1');
@@ -131,8 +131,6 @@ oBtna[4].onmouseover=function(){
 }
 oFixBox.onmouseover=function(){
 	oFixBox.style.height='300px';
-	// animation(oFixBox,'height:300',true);
-	oFixBox.style.display='block';
 }
 //监听每个页面
 oFixHome1.onmouseover=function(){
@@ -208,6 +206,37 @@ oBtns[1].onclick=function(){
 	oLogoLi[0].style.zIndex=0;
 	oBtns[0].style.background='#fff';
 	this.style.background='gray';
+}
+//购物车部分
+var oCart = document.getElementById('cart');
+var oCartt = document.getElementById('cartt');
+var timer = '';
+oCart.onmouseover=function(){
+	timer = setTimeout(function(){
+		oCartt.style.display='block';
+		oCartt.style.opacity=1;
+	},100)
+}
+oCart.onmouseout=function(){
+	timer = setTimeout(function(){
+		oCartt.style.display='none';
+		oCartt.style.opacity=0;
+	},100)
+}
+var oShop = document.getElementById('shop');
+var oShopping = document.getElementById('shopping');
+var timer = '';
+oShop.onmouseover=function(){
+	timer = setTimeout(function(){
+		oShopping.style.display='block';
+		oShopping.style.opacity=1;
+	},100)
+}
+oShop.onmouseout=function(){
+	timer = setTimeout(function(){
+		oShopping.style.display='none';
+		oShopping.style.opacity=0;
+	},100)
 }
 //热门商品部分
 var oBtnLeft = document.getElementById('btnl');

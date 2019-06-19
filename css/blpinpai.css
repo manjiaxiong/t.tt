@@ -70,6 +70,7 @@ body{
 	right:28px;
 	text-align:center;
 	display:none;
+	opacity: 0;
 	z-index: 12;
 }
 .logo .a-1 i{
@@ -159,9 +160,6 @@ body{
 }
 .logo .qp .fix-1 li{
 	line-height:60px;
-}
-.logo .gd:hover + .a-1{
-	display:block;
 }
 /* .logo结束 */
 .top{

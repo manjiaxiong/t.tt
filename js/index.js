@@ -43,6 +43,7 @@ function oMaskEvent(){
 		oMask.style.left='0px';
 		oMask.style.right='0px';
 		oMask.style.bottom='0px';
+		oMask.style.zIndex=3332;
 		oMask.style.backgroundColor='rgba(0,0,0,0.2)'
 		document.body.appendChild(oRed);
 		document.body.appendChild(oMask);

@@ -215,13 +215,13 @@ oCart.onmouseover=function(){
 	timer = setTimeout(function(){
 		oCartt.style.display='block';
 		oCartt.style.opacity=1;
-	},100)
+	},150)
 }
 oCart.onmouseout=function(){
 	timer = setTimeout(function(){
 		oCartt.style.display='none';
 		oCartt.style.opacity=0;
-	},100)
+	},150)
 }
 var oShop = document.getElementById('shop');
 var oShopping = document.getElementById('shopping');
@@ -230,13 +230,13 @@ oShop.onmouseover=function(){
 	timer = setTimeout(function(){
 		oShopping.style.display='block';
 		oShopping.style.opacity=1;
-	},100)
+	},150)
 }
 oShop.onmouseout=function(){
 	timer = setTimeout(function(){
 		oShopping.style.display='none';
 		oShopping.style.opacity=0;
-	},100)
+	},150)
 }
 //热门商品部分
 var oBtnLeft = document.getElementById('btnl');

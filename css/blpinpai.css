@@ -275,8 +275,10 @@ body{
 	text-align:center;
 	cursor:pointer;
 	position:relative;
+	transition: all 0.3s;
 }
 .top .rmnr .jg img{
+	margin-top: 10%;
 	box-shadow:none;
 	width: 152px;
 	height: 205px;
@@ -367,6 +369,7 @@ body{
 	width: 100%;
 }
 .head .sjpj .pj .pj-nr{
+	transition: all 0.3s;
 	width: 25%;
 	height: 400px;
 	float: left;
@@ -463,9 +466,6 @@ body{
 	left:45px;
 	display:none;
 }
-.head .sjpj .pj .pj-z:hover{
-    box-shadow:inset 0 0 38px rgba(0,0,0,.08);
-}
 .head .sjpj .pj-nr:hover .j{
 	display:none;
 }
@@ -498,11 +498,17 @@ body{
 .head .sjpj .gf ul .gfz{
 	float:left;
 }
+.head .sjpj .gf #ggg{
+	margin-right:20px;
+}
 .head .sjpj .gf ul .gfy{
 	float: right;
 	font-size:14px;
 	cursor:pointer;
 	margin-right:30px;
+}
+.head .sjpj .gf ul .gfy:first-child{
+	margin-right:20px;
 }
 .head .sjpj .gf ul .gfy a{
 	color:#666;
@@ -550,14 +556,18 @@ body{
 	color: #666;
 	border-bottom: 1px solid #ccc;
 }
+.conter .ltop .luntan{
+	float: right;
+	color: #666;
+	font-size:18px;
+	line-height:60px;
+	margin-right:35px;
+}
 .conter .ltop .z{
 	float: left;
 	line-height:60px;
 	margin-left:28px;
 	font-size:18px;
-}
-.conter .ltop .y{
-	color:#666;
 }
 .conter .lbom{
 	height: 314px;

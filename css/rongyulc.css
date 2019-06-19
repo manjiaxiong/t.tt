@@ -203,30 +203,37 @@
 	width: 100%;
 	height: 389px;
 	margin-bottom: 50px;
+
 }
 .middle .middle-img{
+	text-align: center;
 	border-top: 1px solid #cccc;
+	border-bottom: 1px solid #ccc;
 	width: 1280px;
 	height: 100%;
 	margin: 0 auto;
 }
+.middle .middle-img img{
+	padding-top: 75px;
+}
 /*中部图片结束*/
 /*图片解释开始*/
 .picture-content{
-	
 	width: 100%;
 	height: 1298px;
+	text-align: center;
 }
 .picture-content .picture-content-container{
 	width: 1280px;
 	height: 100%;
-	margin: 20px auto;
+	padding-left: 108px;
+	text-align: center;
+	margin: 0 auto;
 }
-.picture-content ul{
+.picture-content .picture-content-container ul{
 	margin-top: 50px;
 	width: 100%;
 	height: 100%;
-	
 }
 .picture-content ul li{
 	width: 371px;
@@ -244,15 +251,16 @@
 .picture-content ul li p{
 	width: 100px;
 	height: 100px;
-}*/
+}
 
 /*图片解释结束*/
 /*底部信息开始*/
 #foot{
-	border-top: 1px solid #000;
+	padding-top: 40px;
+	border-top: 1px solid #e6e6e6;
 	width: 100%;
 	height: 343px;
-	background: #f9f9f9;
+	background: #fafafa;
 }
 .foot1 .foot-content{
 	margin: 10px auto;
@@ -328,19 +336,23 @@
 	margin-top: 13px;
 }
 .foot1 .foot-bottom{
-	margin-left: 341px;
-	width: 346px;
+	margin: 10px auto;
+	width: 1280px;
 	height: 30px;
 	margin-top: 25px;
 }
+.foot1 .foot-bottom .foot-bottom-content{
+	width: 346px;
+	height: 30px;
+}
 .foot1 .foot-bottom p{
 	font-size: 6px;
-	color:#696969;
+	color:#bdbdbd;
 	margin-bottom: 10px;
 }
 .foot1 .foot-bottom p a{
 	font-size: 6px;
-	color:#696969;
+	color:#bdbdbd;
 
 }
 .foot1 .foot-bottom p a:hover{

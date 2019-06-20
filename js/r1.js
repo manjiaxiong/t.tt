@@ -39,7 +39,7 @@ function showMsg(){
 
 function changeMsg(){
 	var t = document.documentElement.scrollTop;
-	if(t>=9800){
+	if(t>=9700){
 		oMsgBox.className = 'message messages';
 	}else{
 		oMsgBox.className = 'message';

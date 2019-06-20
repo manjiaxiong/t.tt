@@ -334,12 +334,12 @@ oL[0].onmouseover=function(){
 oH[1].onmouseover=function(){
 	this.className="h div";
 	oL[1].className="l";
-	oLiImgw.src="../bl-images/pinpai/sj2.png";
+	oLiImgw.src="../bl-images/pinpai/sj1.png";
 }
 oL[1].onmouseover=function(){
 	this.className="l div";
 	oH[1].className="h";
-	oLiImgw.src="../bl-images/pinpai/sj1.png";
+	oLiImgw.src="../bl-images/pinpai/sj2.png";
 }
 oH[2].onmouseover=function(){
 	this.className="h div";

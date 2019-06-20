@@ -9,7 +9,7 @@
 	margin-top:40px;
 	background-color: #ff6700;
 	animation: sport 0.3s linear 0s alternate infinite;
-}
+} 
 .loading:after,.loading:before{
 	position: absolute;
 	top: 0;
@@ -50,7 +50,7 @@
 #coursel .span{
 		width: 40px;
 		height: 70px;
-		background-color: rgba(0,0,0,0.3);
+		background-color: rgba(0,0,0,0);
 		position: absolute;
 		color: white;
 		font-size: 40px;
@@ -60,6 +60,11 @@
 		z-index: 100;
 		cursor: pointer;
 		text-align: center;
+		overflow: hidden;
+
+	}
+#coursel .span:hover{
+	background-color: rgba(0,0,0,0.3);
 	}
 #coursel .active{
 		background-color: rgba(255,0,0,0.7);

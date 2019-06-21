@@ -188,7 +188,7 @@ body{
 	background: gray;
 	border: 1px solid #ccc;
 	position: absolute;
-	top: 92%;
+	top: 605px;
 	left:49.1%;
 	z-index: 6;
 	cursor: pointer;
@@ -201,7 +201,7 @@ body{
 	background: #fff;
 	border: 1px solid #ccc;
 	position: absolute;
-	top: 92%;
+	top: 605px;
 	right:49.1%;
 	z-index: 6;
 }

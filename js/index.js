@@ -64,8 +64,8 @@ function oMaskEvent(){
 //3header的数据加载
 HeaderCont();
 function HeaderCont(){
-	var aHeaderLi=document.querySelectorAll('.header-list li');
-	var oHeaderContUl=document.querySelectorAll('.header-Cont ul');
+	var aHeaderLi=document.querySelectorAll('.header-list .deso');
+	var oHeaderContUl=document.querySelectorAll('.header-Cont .contul');
 	var oHeaderCont=document.querySelector('.header-Cont ');
 	console.log(oHeaderContUl.length);
 	var hideCon=null;
@@ -141,5 +141,20 @@ function PartLoading(){
 		html+='</ul>';
 		oPartCont.innerHTML=html; 
 	}
+}
+//顶部滚动
+TopScroll();
+function TopScroll(){
+	var oTop1=document.querySelector('#top');
+	window.onscroll=function(ev){
+		if(document.documentElement.scrollTop>52){
+			oTop1.style.display='block';
+			oTop1.style.position='fixed';
+			oTop1.style.top=0+'px';
+		}
+		if(document.documentElement.scrollTop<52){
+			oTop1.style.display='none';
+		}
+	}	
 }
 

@@ -4,20 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-		div{
-			width: 309px;
-			height: 205px;
-			margin:200px auto;
-		}
-		img{
-			box-shadow: inset 10px 10px 10px red;
+		body{
+			height: 3000px;
 		}
 	</style>
 </head>
 <body>
-	<div>
-		<img src="../images/总结3.png" alt="">
-	</div>
+	
 </body>
-log	
+<script>
+	window.onscroll=function(ev){
+		// if(document.body.scrollTop>50){
+		// 	console.log(11);
+		// }
+		console.log(document.documentElement.scrollTop);
+	}
+</script>
 </html>
